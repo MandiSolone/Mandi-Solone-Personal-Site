@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     gap: 5rem;
@@ -28,11 +29,6 @@ li{
 .first-container{
     padding: 150px;
     background-color: #AAD7D9;
-}
-.first-container img{
-    border-radius: 50%;
-    border: #F0F0F0 solid .2rem;
-    margin: 1rem;
 }
 h1{
     font-style: italic;
@@ -75,13 +71,17 @@ p {
     background-color:#E5D283 ;
     gap: 2rem;;
 }
-.skill-image {
-   
-}
+
 img{
     height: 400px;
     width: 400px;
     border-radius: 10%;
+}
+.first-container img{
+    border-radius: 50%;
+    border: #F0F0F0 solid .2rem;
+    margin: 1rem;
+    width: 300px;
 }
 .skill-text {
     background-color: #F0F0F0;
@@ -92,3 +92,8 @@ img{
 .fourth-container{
     margin: 30px
 }
+
+  
+
+
+
