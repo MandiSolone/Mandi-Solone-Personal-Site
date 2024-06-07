@@ -51,7 +51,7 @@ h3 {
     text-shadow:#AAD7D9 2px 2px 2px;  
 }
 p { 
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .second-container{
     background-color: #F0F0F0;
@@ -81,13 +81,15 @@ img{
     border-radius: 50%;
     border: #F0F0F0 solid .2rem;
     margin: 1rem;
-    width: and 280px;
+    width: 300px;
 }
 .skill-text {
     background-color: #F0F0F0;
     border-radius: 10%;
     padding: 5%;
     margin: 80px;
+    text-align: center;
+    align-items: center;
 }
 .fourth-container{
     margin: 30px
