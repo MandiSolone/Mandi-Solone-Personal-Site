@@ -7,7 +7,6 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 3px;
   color: #213555;
 }
 .parent-container {
@@ -15,15 +14,21 @@ body {
 }
 .header-container,
 .footer-container {
-  padding: 2px !important;
+  padding: 10px !important;
   background-color: #4f709c;
   padding: 1rem;
   font-size: large;
+  color: black;
 }
-li {
+.header-container li {
   list-style: none;
-  display: inline-block;
-  margin: 10px;
+  display: inline;
+  padding: 10px;
+}
+.footer-container li{
+  list-style: none;
+  display: inline;
+  padding: 10px;
 }
 .first-container {
   padding: 150px;
@@ -46,6 +51,7 @@ p {
 h2 {
   font-size: 3rem;
   text-shadow: #aad7d9 2px 2px 2px;
+  padding-top: 20px;
 }
 h3 {
   font-size: 2rem;
@@ -55,11 +61,12 @@ p {
   font-size: 1.5rem;
 }
 .second-container {
-  background-color: #f0f0f0;
   margin: 100px;
+  padding: 2%;
 }
 .third-container {
   background-color: #e5d283;
+  padding: 2%;
 }
 .parent-project-container {
   display: grid;
@@ -79,7 +86,6 @@ img {
 .first-container img {
   border-radius: 50%;
   border: #f0f0f0 solid 0.2rem;
-  margin: 1rem;
   width: 300px;
 }
 .skill-text {
@@ -92,4 +98,5 @@ img {
 }
 .fourth-container {
   margin: 30px;
+  padding: 5%;
 }
