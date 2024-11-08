@@ -1,16 +1,35 @@
 import React from 'react';
+import { FaLinkedin, FaGithub, FaCode, FaEnvelope } from 'react-icons/fa'; // Add FaCode or FaEnvelope for email
 
-const Footer = () => (
-  <div className="footer-container">
-    <footer className="py-3 my-4">
-      <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-        <li className="nav-item"><a href="https://www.linkedin.com/in/mandi-solone-8a301647/" className="nav-link px-2 text-body-secondary">LinkedIn</a></li>
-        <li className="nav-item"><a href="https://github.com/MandiSolone">GitHub</a></li>
-        <li className="nav-item"><a href="https://docs.google.com/document/d/1TBXt2ftQG5LAJtNO4FXiiMw_S6V3U7D9miJPpRXandg/edit?tab=t.0">Resume</a></li>
+const Footer = () => {
+  return (
+    <footer className="footer-container">
+      <ul className="social-icons">
+        <li>
+          <a href="https://www.linkedin.com/in/mandi-solone-8a301647/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/MandiSolone" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.codewars.com/users/MandiSolone" target="_blank" rel="noopener noreferrer">
+            <FaCode /> {/* Codewars icon */}
+          </a>
+        </li>
+        {/* Or use the email icon */}
+        <li>
+          <a href="mailto:youremail@example.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope /> {/* Email icon */}
+          </a>
+        </li>
       </ul>
-      <p className="text-center text-body-secondary">© Mandi Solone</p>
+      <p>© Mandi Solone</p>
     </footer>
-  </div>
-);
+  );
+}
 
 export default Footer;
